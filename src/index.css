@@ -1,19 +1,39 @@
 * {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: Arial, sans-serif;
+	color: #fff;
 }
 
 body {
+	background-color: #20232a;
 	padding: 60px;
 }
 
+h1 {
+	letter-spacing: 2px;
+}
+
 input {
+	background: #20232a;
+	border: 0px;
 	border-radius: 6px;
-	color: gray;
-	font-size: 1.2rem;
-	padding: 10px;
+	box-shadow: inset 5px 5px 3px #1b1e24, inset -5px -5px 3px #252830;
+	color: rgb(190, 190, 190);
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+	padding: 15px;
+	outline: none;
 	width: 100%;
 }
 
+h3 {
+	font-size: 1.8rem;
+	letter-spacing: 1px;
+}
+
+.skeleton-container span span {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
 .card-grid {
 	display: flex;
 	flex-wrap: wrap;
@@ -21,11 +41,12 @@ input {
 
 .card {
 	align-content: center;
-	border: 1px solid grey;
+	background: #20232a;
 	border-radius: 6px;
+	box-shadow: 5px 5px 10px #14161a, -5px -5px 10px #2c303a;
 	height: 250px;
-	margin-bottom: 10px;
-	margin-right: 10px;
+	margin-bottom: 35px;
+	margin-right: 35px;
 	overflow: hidden;
 	width: 300px;
 }
